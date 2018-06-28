@@ -1,0 +1,159 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" id="html" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<link rel="manifest" href="../../assets/manifest.json">
+		<meta name="theme-color" content="#ffffff">
+
+		<title id="title"> {{.SeoTitle}} </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+		<link async rel="stylesheet" href="../../../assets/css/tachyons+loadingio.css?">
+
+		<!-- {{.SeoContent}} -->
+
+		<link rel="shortcut icon" id="favicon" href="../../../assets/img/icon.png?">
+		<script src="../../../assets/bin/custom.js?" type="text/javascript" charset="utf-8"></script>
+		<style>
+			tr:after {
+				content: ' ';
+				display: block;
+				visibility: hidden;
+				clear: both;
+			}
+
+			input { box-shadow: inset 0px 0px 0px 0px red; }
+			.alertPrimary { /*Orange Gradient - mastercard theme*/
+				background: #f46b45;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.btnPrimary { /*Orange Gradient - mastercard theme*/
+				background: #f46b45;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.menuCloudBG {
+				background: #ECE9E6;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.bgLemonTwist {
+				background: #3CA55C;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.parallaxBG {
+				/* Create the parallax scrolling effect */
+				/* background-attachment: fixed; */
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.hoverMenu:hover ul {
+			    display: table;
+			}
+
+			.aboutBG {
+				background: #EECDA3;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to bottom\, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to bottom\, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+			.newsletterBG {
+				background: #2980b9; /* fallback for old browsers */
+			  background: -webkit-linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+			  background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.menuBG {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
+				background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+			}
+
+			.hover-bg-gradient:hover {
+				opacity:.3;
+				background: #8e9eab;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.bg-pattern {
+				background-image:url('./assets/img/bg-pattern-nice.png');
+			}
+
+			.bg-body {
+				background: #FEAC5E;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+		</style>
+	</head>
+
+
+	<body id="body" class="bg-body avenir w-100">
+
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<span id="top"></span>
+		<section id="appMenu" class="top-0 z-max"></section>
+
+
+		<section id="appLoading" style="" class="min-vh-100 w-100 absolute dn z-max">
+			<article class="dt center">
+				<div class="dtc v-mid tc f6 fw3 vh-75 near-white">
+					<img class="" src="../../assets/img/logoBlack.png"/> <br/>
+					<div class="spinner">
+						<div class="dot1"></div>
+						<div class="dot2"></div>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section id="appContent" style="" class="bg-pattern">
+			<script>startLoader("Index")</script>
+
+			<section id="Index" style="" class="min-vh-100 w-100 absolute">
+				<article class="dt center">
+					<div class="dtc v-mid tc f6 fw3 vh-75 near-white">
+						<img class="" src="../../assets/img/logoBlack.png"/> <br/>
+						<div class="spinner">
+							<div class="dot1"></div>
+							<div class="dot2"></div>
+						</div>
+					</div>
+				</article>
+			</section>
+		</section>
+
+		<section id="appFooter" class=""></section>
+
+  </body>
+	<script type="text/javascript">
+	(function(){
+	     // var randomh=Math.random();
+	     var randomh=new Date().valueOf();
+	     var e = document.getElementsByTagName("script")[0];
+	     var d = document.createElement("script");
+	     d.src = "../../../assets/bin/web.min.js?"+randomh+"";
+	     d.type = "text/javascript";
+	     d.async = true;
+	     d.defer = true;
+	     e.parentNode.insertBefore(d,e);
+	 })();
+	</script>
+</html>
