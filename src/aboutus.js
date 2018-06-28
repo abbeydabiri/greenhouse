@@ -36,10 +36,10 @@ var page = {
 
 				<div class=" bg-white fl bg-white  w-100 w-70-l pt2 pb2 ph2 tj">
 					<p class="f3 lh-copy">
-						The iStarter Hub provides a safe space for women and youths, where they can come to gain access to resources that enable their creative expressions.
+						The Greenhouse provides a safe space for women and youths, where they can come to gain access to resources that enable their creative expressions.
 					</p>
 					<p class="f5 lh-copy">
-						iStarter Hub provides an enabling environment for women and youths to meet, work, learn and collaborate,
+						Greenhouse provides an enabling environment for women and youths to meet, work, learn and collaborate,
 						while ensuring that they become innovators.
 						Comprehensive programs which include practical ICT sessions, Entrepreneurship workshops,
 						Financial Literacy inclusion, Social Advocacy - online and offline peer meets, Career Talks
@@ -94,10 +94,10 @@ var page = {
 			<section class="mw8 bg-white cf center pv3">
 				<div class="br2-l br--bottom-l fl bg-white  w-100 w-70-l pt2 pb4 ph2 tj">
 					<p class=" lh-copy">
-						The iStarter Hub provides a safe space for women and youths, where they can come to gain access to resources that enable their creative expressions.
+						The Greenhouse provides a safe space for women and youths, where they can come to gain access to resources that enable their creative expressions.
 					</p>
 					<p class=" lh-copy">
-						iStarter Hub provides an enabling environment for women and youths to meet, work, learn and collaborate,
+						Greenhouse provides an enabling environment for women and youths to meet, work, learn and collaborate,
 						while ensuring that they become innovators.
 						Comprehensive programs which include practical ICT sessions, Entrepreneurship workshops,
 						Financial Literacy inclusion, Social Advocacy - online and offline peer meets, Career Talks

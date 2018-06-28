@@ -121,7 +121,7 @@ var page = {
 	oninit:function(vnode){
 		m.mount(document.getElementById('appMenu'), menu)
 		m.mount(document.getElementById('appFooter'), footer);
-		setTimeout(function(){page.sliderInit()},250);
+		// setTimeout(function(){page.sliderInit()},250);
 
 		m.request({method:'GET', url: "https://icanhazip.com/",
 			deserialize: function(value) {return value}}).then(function(response){
@@ -147,7 +147,7 @@ var page = {
 							<article class="absolute top-0 vh-75 vh-50 dt w-100 bg-black-40">
 							  <div class="dtc v-btm-m v-mid">
 									<div class="measure center br2 pa3 tc">
-										<p class="f5 fw4 white tracked"> The iStarter Hub provides a safe space for women and youth to meet, work, learn and collaborate</p>
+										<p class="f5 fw4 white tracked"> The Greenhouse provides a safe space for women and youth to meet, work, learn and collaborate</p>
 										<Icons onclick={page.sliderPrev} name="chevron-left" class="absolute pointer h1 ph1 pv2 z-max bg-black-50 br--right br2 light-gray left-0"/>
 										<Icons onclick={page.sliderNext} name="chevron-right" class="absolute pointer h1 ph1 pv2 z-max bg-black-50 br--left br2 light-gray right-0"/>
 
@@ -168,21 +168,21 @@ var page = {
 					<h1 class="f1 i black athelas">
 						About Us
 						<p class="f4 fw1 pv0 mv0">
-							A quick introduction to iStarterHub
+							A quick introduction to Greenhouse
 						</p>
 					</h1>
 
 					<section class="cf">
 						<div class="fl w-100 w-50-l pv2 ph2">
-							<img class="br3 shadow-5" src="assets/img/africa.jpg"/>
+							<img class="br3 shadow-5" src="assets/img/greenhouse.jpeg"/>
 						</div>
 
 						<div class="fl w-100 w-50-l pv2 ph2 tj">
 							<p class=" lh-copy">
-								The iStarter Hub provides a safe space for women and youth, where they can come to gain access to resources that enable their creative expressions.
+								The Greenhouse provides a safe space for women and youth, where they can come to gain access to resources that enable their creative expressions.
 							</p>
 							<p class=" lh-copy">
-								iStarter Hub provides an enabling environment for women and youth to meet, work, learn and collaborate,
+								Greenhouse provides an enabling environment for women and youth to meet, work, learn and collaborate,
 								while ensuring that they become innovators.
 								Comprehensive programs which include practical ICT sessions, Entrepreneurship workshops,
 								Financial Literacy inclusion, Social Advocacy - online and offline peer meets, Career Talks
@@ -192,15 +192,15 @@ var page = {
 							</p>
 
 							<a oncreate={m.route.link} class="link link white f6" href="/contactus">
-								<small class="pa2 ph3 bg-black b hover-bg-near-white hover-black br2 tracked">Contact Us</small>
+								<small class="pa2 ph3 bg-dark-green b hover-bg-near-white hover-black br2 tracked">Contact Us</small>
 							</a>
 						</div>
 					</section>
 
 					<h1 class="f2	 i black athelas">
-						FEATURED PROJECTS
+						FEATURED PRODUCTS
 						<p class="f4 fw1 pv0 mv0">
-							Best & most popular of our works
+							Best & most popular of our greenhouses
 						</p>
 					</h1>
 
@@ -273,7 +273,7 @@ var page = {
 						<img src="assets/img/empowerher.jpg"/>
 						<h2 class="ph2 pv3">ABOUT US</h2>
 						<p class="ph2 tj">
-							The iStarter Hub provides safe space for women and youth, where
+							The Greenhouse provides safe space for women and youth, where
 							they can come to gain access to resources that enable their creative expressions.
 						</p>
 						<a class="w4 center no-underline f6 tc db pv3 bg-animate bg-red hover-bg-blue white br2 fw">READ MORE...</a>
@@ -322,7 +322,7 @@ var page = {
 											onkeyup: function(event) {if(event.key=="Enter"){page.submitNewsletter}}
 										})}
 										{m("span",{ onclick: page.submitNewsletter,
-												class: "fl f6 pv3 tc bn bg-animate ttu tracked bg-dark-red fw5 hover-bg-blue white pointer w-100 w-30-m w-30-l br2-ns br--right-ns",
+												class: "fl f6 pv3 tc bn bg-animate ttu tracked bg-near-white fw5 hover-bg-blue dark-green pointer w-100 w-30-m w-30-l br2-ns br--right-ns",
 										},"Sign Me Up")}
 						      </div>
 						    </span>
@@ -330,40 +330,6 @@ var page = {
 						</div>
 					</div>
 				</section>
-
-				<section class="cf mw8 w-100 center">
-					<div class="cf w-100 bg-white pv3 ph2 br2">
-					  <p class="f5 db lh-solid"> Connect with us on Social Media </p>
-					  <div class="">
-							<a href="#" target="_blank">
-								<img src="../../assets/img/facebook.svg" class="h2 mr4"/>
-							</a>
-							<a href="#" target="_blank">
-								<img src="../../assets/img/instagram.svg" class="h2 mr4"/>
-							</a>
-							<a href="#" target="_blank">
-								<img src="../../assets/img/whatsapp.svg" class="h2 mr4"/>
-							</a>
-							<a href="#" target="_blank">
-								<img src="../../assets/img/twitter.svg" class="h2 "/>
-							</a>
-					  </div>
-				  </div>
-				</section>
-
-				<section class="cf mw8 w-100 center pv3">
-					<div class="fl w-100 w-40-m w-50-l pr1 pb3">
-						<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bj_9Mzhg62G/" data-instgrm-version="8" style="min-height:800px; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;">
-						</div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Bj_9Mzhg62G/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Throwback to the drone project and teachings done last week in our ongoing skill empowerment programme #Empower her. It was handled by the Global Air Media Team(GlobalAirMedia.com) at the American corner. At Istarterhub, we believe in a well-grounded empowerment. #tbt❤️ #technology #techwomen #womenintech #drone #skills #creation #EmpowerHer #ict #iStarterHub</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-						A post shared by <a href="https://www.instagram.com/istarterhub/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> iStarterHub</a> (@istarterhub) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-06-14T09:01:58+00:00">Jun 14, 2018 at 2:01am PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
-					</div>
-
-					<div class="fl w-100 w-60-m w-50-l pl1 pb3">
-						<iframe class="w-100 fr" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fistarterhub%2F&tabs=timeline&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=514874608864646&width=500px" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-					</div>
-				</section>
-
-
 
 			</section>
 		)
