@@ -101,7 +101,7 @@ var page = {
 	view:function(vnode){
 		return (
 			<section style="" class="min-vh-100">
-				<article class="pv3">
+				<article class="pt3">
 					<div class="flex flex-column flex-row-l">
 						<div class="w-100 mw8 center relative">
 							<div class="siema vh-75 vh-50 w-100">
@@ -124,7 +124,7 @@ var page = {
 					</div>
 				</article>
 
-				<a href="aboutus"></a>
+				<a name="aboutus"></a>
 				<section class="mw8 bg-white tc center pa2">
 					<h1 class="f1 i black athelas">
 						About Us
@@ -157,7 +157,7 @@ var page = {
 					</section>
 				</section>
 
-				<a href="gallery"></a>
+				<a name="gallery"></a>
 				<section class="mw8 bg-near-white tc center pa2 br3 br--bottom pv3">
 					<h1 class="f2 i black athelas">
 						FEATURED PRODUCTS

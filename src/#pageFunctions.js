@@ -407,7 +407,5 @@ export function switchPageMode(page, mode) {
 		getPageSearchList(page);
 		break;
 	}
-	if (mode !== "search"){ location.hash = "#top" }
-
 	stopLoader();
 }

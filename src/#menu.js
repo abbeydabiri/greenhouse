@@ -69,8 +69,8 @@ export var menu = {
 							</p>
 						</li>
 
-						{m(menu.menuItem,{href:"/index#aboutus",icon:"user"},"ABOUT US")}
-						{m(menu.menuItem,{href:"/index#gallery",icon:"user"},"GALLERY")}
+						{m(menu.menuItem,{href:"/#aboutus",icon:"user"},"ABOUT US")}
+						{m(menu.menuItem,{href:"/#gallery",icon:"user"},"GALLERY")}
 						<a class="link f5" oncreate={m.route.link} href="/contactus">
 							<li class="tr" onclick={menu.toggle}>
 								<p class="ph2 pv3 mv0 ">
@@ -103,8 +103,8 @@ export var menu = {
 						<img class="fl f5 h2 ma2 tracked fw5" src="../../assets/img/logo.png" height=""/>
 						<Icons name="menu" class="fr mv2 mr2 h1 dib dn-l white pa2 bg-dark-green br1" onclick={menu.toggle}/>
 						<nav class="fr mv3 dn dib-l">
-						  <a oncreate={m.route.link} class="link hover-green tracked black f6 dib mr4 b" href="/index#aboutus"><small>ABOUT US</small></a>
-						  <a oncreate={m.route.link} class="link hover-green tracked black f6 dib mr4 b" href="/index#gallery"><small>GALLERY</small></a>
+						  <a oncreatex={m.route.link} class="link hover-green tracked black f6 dib mr4 b" href="/#aboutus"><small>ABOUT US</small></a>
+						  <a oncreatex={m.route.link} class="link hover-green tracked black f6 dib mr4 b" href="#gallery"><small>GALLERY</small></a>
 							<a oncreate={m.route.link} class="link mh2 link white f6" href="/contactus">
 								<small class="pa2 ph3 bg-dark-green b hover-bg-green br2 tracked">CONTACT US</small>
 							</a>

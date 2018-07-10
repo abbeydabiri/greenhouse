@@ -207,6 +207,70 @@ var page = {
 					</div>
 				</section>
 
+
+				<a name="gallery"></a>
+				<section class="mw8 bg-near-white tc center pa2 br3 br--bottom pv3">
+					<h1 class="f2 i black athelas">
+						FEATURED PRODUCTS
+						<p class="f4 fw1 pv0 mv0">
+							Best & most popular of our greenhouses
+						</p>
+					</h1>
+
+					<div class="fl tr w-100">
+						<Icons name="chevron-left" class="h1 ph1 green pointer grow"/>
+						<Icons name="chevron-right" class="h1 ph1 dark-green pointer grow"/>
+					</div>
+				  <div class="cf pa1 overflow-scroll">
+				    <div class="dib w-50 w-25-ns pa2">
+			        <img src="assets/img/item-1.jpeg" class="db w-100 br2 br--top"/>
+						  <div class="pb3-ns tl">
+						    <p class="f6 h3 overflow-hidden lh-copy measure mt2 mid-gray ttu">
+						     FOR SALE
+						    </p>
+								<a oncreate={m.route.link} class="dim link white f6" href="/contactus">
+									<small class="pa2 bg-dark-green hover-bg-near-white hover-black fw5 br1 tracked">Buy Now</small>
+								</a>
+						  </div>
+				    </div>
+				    <div class="dib w-50 w-25-ns pa2">
+			        <img src="assets/img/item-2.jpeg" class="db w-100 br2 br--top"/>
+						  <div class="pb3-ns tl">
+						    <p class="f6 h3 overflow-hidden lh-copy measure mt2 mid-gray ttu">
+						     FOR SALE
+						    </p>
+								<a oncreate={m.route.link} class="dim link white f6" href="/contactus">
+									<small class="pa2 bg-dark-green hover-bg-near-white hover-black fw5 br1 tracked">Buy Now</small>
+								</a>
+						  </div>
+				    </div>
+
+						<div class="dib w-50 w-25-ns pa2">
+			        <img src="assets/img/item-3.jpeg" class="db w-100 br2 br--top"/>
+						  <div class="pb3-ns tl">
+						    <p class="f6 h3 overflow-hidden lh-copy measure mt2 mid-gray ttu">
+						     FOR SALE
+						    </p>
+								<a oncreate={m.route.link} class="dim link white f6" href="/contactus">
+									<small class="pa2 bg-dark-green hover-bg-near-white hover-black fw5 br1 tracked">Buy Now</small>
+								</a>
+						  </div>
+				    </div>
+
+						<div class="dib w-50 w-25-ns pa2">
+			        <img src="assets/img/item-4.jpeg" class="db w-100 br2 br--top"/>
+						  <div class="pb3-ns tl">
+						    <p class="f6 h3 overflow-hidden lh-copy measure mt2 mid-gray ttu">
+						     FOR SALE
+						    </p>
+								<a oncreate={m.route.link} class="dim link white f6" href="/contactus">
+									<small class="pa2 bg-dark-green hover-bg-near-white hover-black fw5 br1 tracked">Buy Now</small>
+								</a>
+						  </div>
+				    </div>
+				  </div>
+				</section>
+
 			</section>
 		)
 	}
