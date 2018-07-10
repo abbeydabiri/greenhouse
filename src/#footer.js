@@ -60,10 +60,10 @@ export var footer = {
 	},
 	view: function(vnode) {
 		return (
-			<footer class="mw8 center ">
-				<div class="fl w-100 pv4 ph3 ph5-m ph6-l washed-green">
+			<footer class="bg-black-70 br3 br--top">
+				<div class="w-100 pa3 ph5-m ph6-l washed-green">
 				  <small class="f6 db tc">© 2018 <b class="ttu tracked">Green House</b> - All Rights Reserved</small>
-				  <div class="tc mt3">
+				  <div class="tc mt2">
 				    <a href="/terms/" title="Terms" class="f6 dib ph2 link washed-green dim">Terms of Use</a>
 				    <a href="/privacy/" title="Privacy" class="f6 dib ph2 link washed-green dim">Privacy</a>
 				  </div>

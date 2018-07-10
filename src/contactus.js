@@ -91,11 +91,17 @@ var page = {
 
 				<section class="bg-white mw8 tc center flex flex-row-ns flex-column">
 					<div class="fl w-100 w-50-l order-1 order-2-ns parallaxBG" style="background-image:url('assets/img/contact-bg.jpg')">
-						<div class="dt w-100 tracked white bg-black-50" style="max-height:800px">
+						<div class="dt w-100 tracked white bg-black-80" style="max-height:800px">
 							<div class="dtc v-mid pv5 ph4">
 								<legend class="pa0 ph2 f4 fw6 f3-ns mb3 tl ttu tracked w-100">CHAT WITH US</legend>
 								<legend class="pa0 ph2 f6 fw4 f5-ns mb3 tl tracked w-100 pb2 lh-landing">If you have a question or concern that requires immediate assistance, you can call or send us an email and someone will be in touch within 24-48 hours.</legend>
-								<legend class="pa0 ph2 f6 fw4 f5-ns mb3 tl tracked w-100 pv1 lh-landing">You can call us:<br/> (234) 817-102-7807</legend>
+								<legend class="pa0 ph2 f6 fw4 f5-ns mb3 tl tracked w-100 pv1 lh-landing">
+									You can call us:<br/>
+									+234-813-136-7337 <br/>
+									+234-806-752-5393
+								</legend>
+
+
 								<legend class="pa0 ph2 f6 fw4 f5-ns mb3 tl tracked w-100 pt1 pb3 lh-landing">Or send us an email: <br/> info@greenhouse.ng</legend>
 								<div class="cf w-100 pv3"></div>
 								<legend class="pa0 ph2 f4 fw6 f3-ns mb3 tl ttu tracked w-100">VISIT OUR OFFICE</legend>
@@ -104,9 +110,9 @@ var page = {
 								We are available <br/>
 								Mon - Fri from 9am - 5pm <br/>
 
-								21 Road, F Close, House 30, <br/>
+								#50 Lagos Street, <br/>
 
-								Festac Town, Lagos, <br/>Nigeria <br/>
+								Mainland, Lagos, <br/>Nigeria <br/>
 								</legend>
 							</div>
 						</div>
@@ -192,7 +198,7 @@ var page = {
 
 									<div class="fl w-100 pa2">
 										{m("span",{ onclick: page.submitContact,
-											class: "f6 button-reset fl pa3 tc bn bg-animate ttu tracked bg-blue br1 hover-bg-red white pointer",
+											class: "f6 button-reset fl pa3 tc bn bg-animate ttu tracked bg-dark-green br1 hover-bg-green white pointer",
 										},"SEND")}
 									</div>
 								</div>

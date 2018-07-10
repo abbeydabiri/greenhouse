@@ -10,12 +10,12 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<title id="title"> {{.SeoTitle}} </title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 		<link async rel="stylesheet" href="../../../assets/css/tachyons+loadingio.css?">
 
 		<!-- {{.SeoContent}} -->
 
-		<link rel="shortcut icon" id="favicon" href="../../../assets/img/icon.png?">
+		<link rel="shortcut icon" id="favicon" href="../../../assets/img/icon.png?xsd">
 		<script src="../../../assets/bin/custom.js?" type="text/javascript" charset="utf-8"></script>
 		<style>
 			tr:after {
@@ -103,7 +103,7 @@
 
 
 	<body id="body" class="bg-body avenir w-100">
-
+		<section class="bg-pattern min-vh-100">
 		<!--[if lt IE 8]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
@@ -114,9 +114,9 @@
 
 		<section id="appLoading" style="" class="min-vh-100 w-100 absolute dn z-max">
 			<article class="dt center">
-				<div class="dtc v-mid tc f6 fw3 vh-75 near-white">
-					<img class="" src="../../assets/img/logoBlack.png"/> <br/>
-					<div class="spinner">
+				<div class="dtc v-mid tc f6 fw3 vh-100 near-white">
+					<img class="" src="../../assets/img/loading.png"/> <br/>
+					<div class="spinner center">
 						<div class="dot1"></div>
 						<div class="dot2"></div>
 					</div>
@@ -124,14 +124,14 @@
 			</article>
 		</section>
 
-		<section id="appContent" style="" class="bg-pattern">
+		<section id="appContent" style="">
 			<script>startLoader("Index")</script>
 
-			<section id="Index" style="" class="min-vh-100 w-100 absolute">
+			<section id="Index" style="" class="min-vh-100 w-100 absolute bg-transparent">
 				<article class="dt center">
-					<div class="dtc v-mid tc f6 fw3 vh-75 near-white">
-						<img class="" src="../../assets/img/logoBlack.png"/> <br/>
-						<div class="spinner">
+					<div class="dtc v-mid tc fw3 vh-100 red">
+						<img class="" src="../../assets/img/loading.png"/> <br/>
+						<div class="spinner center">
 							<div class="dot1"></div>
 							<div class="dot2"></div>
 						</div>
@@ -140,8 +140,9 @@
 			</section>
 		</section>
 
-		<section id="appFooter" class=""></section>
+		<section id="appFooter" class="mw8 center"></section>
 
+		</section>
   </body>
 	<script type="text/javascript">
 	(function(){
