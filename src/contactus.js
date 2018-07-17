@@ -98,7 +98,8 @@ var page = {
 								<legend class="pa0 ph2 f6 fw4 f5-ns mb3 tl tracked w-100 pv1 lh-landing">
 									You can call us:<br/>
 									+234-813-136-7337 <br/>
-									+234-806-752-5393
+									+234-806-752-5393 <br/>
+									+234-703-036-5790
 								</legend>
 
 
@@ -210,9 +211,9 @@ var page = {
 
 				<a name="gallery"></a>
 				<section class="mw8 bg-near-white tc center pa2 br3 br--bottom pv3">
-					<h1 class="f2 i black athelas">
+					<h1 class="f3 f2-ns i black athelas">
 						FEATURED PRODUCTS
-						<p class="f4 fw1 pv0 mv0">
+						<p class="f5 f4-ns fw1 pv0 mv0">
 							Best & most popular of our greenhouses
 						</p>
 					</h1>
@@ -221,7 +222,7 @@ var page = {
 						<Icons name="chevron-left" class="h1 ph1 green pointer grow"/>
 						<Icons name="chevron-right" class="h1 ph1 dark-green pointer grow"/>
 					</div>
-				  <div class="cf pa1 overflow-scroll">
+				  <div class="cf pa1">
 				    <div class="dib w-50 w-25-ns pa2">
 			        <img src="assets/img/item-1.jpeg" class="db w-100 br2 br--top"/>
 						  <div class="pb3-ns tl">

@@ -26,7 +26,7 @@ export var menu = {
 			return(
 				<a class="link" href={vnode.attrs.href}>
 					<li class="tr" onclick={menu.toggle}>
-						<p class="ph2 pv3 mv0 white hover-bg-white hover-blue fw5 tracked">
+						<p class="ph2 pv3 mv0 dark-green hover-bg-gradient hover-white fw5 tracked">
 							{vnode.children}
 						</p>
 					</li>
@@ -69,8 +69,8 @@ export var menu = {
 							</p>
 						</li>
 
-						{m(menu.menuItem,{href:"/#aboutus",icon:"user"},"ABOUT US")}
-						{m(menu.menuItem,{href:"/#gallery",icon:"user"},"GALLERY")}
+						{m(menu.linkItem,{href:"/#aboutus",icon:"user"},"ABOUT US")}
+						{m(menu.linkItem,{href:"/#gallery",icon:"user"},"GALLERY")}
 						<a class="link f5" oncreate={m.route.link} href="/contactus">
 							<li class="tr" onclick={menu.toggle}>
 								<p class="ph2 pv3 mv0 ">
@@ -92,7 +92,7 @@ export var menu = {
 							<span class="fr pointer inline-flex items-center hover-black">
 								<Icons name="headphones" class="dib h1" />
 								<small class="ml1">+234-813-136-7337</small>
-								<small class="ml1 dib-ns dn"> / +234-806-752-5393</small>
+								<small class="ml1 dib-ns dn"> / +234-703-036-5790</small>
 							</span>
 
 					</div>
@@ -100,7 +100,7 @@ export var menu = {
 
 				<nav id="nav" class="w-100 mw8 center black z-5 " >
 					<div class="w-100 mw8 center bg-white br2-l br--bottom-l cf">
-						<img class="fl f5 h2 ma2 tracked fw5" src="../../assets/img/logo.png" height=""/>
+						<img class="fl f5 h1 h2-ns  ma2 tracked fw5" style="min-height:30px" src="../../assets/img/logo.png" height=""/>
 						<Icons name="menu" class="fr mv2 mr2 h1 dib dn-l white pa2 bg-dark-green br1" onclick={menu.toggle}/>
 						<nav class="fr mv3 dn dib-l">
 						  <a oncreatex={m.route.link} class="link hover-green tracked black f6 dib mr4 b" href="/#aboutus"><small>ABOUT US</small></a>

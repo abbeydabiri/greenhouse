@@ -1,0 +1,10 @@
+Email Account to Add
+is info@topsabrokers.com
+
+
+SMTP Logins to enter here
+username: postmaster@topsabrokers.com
+password: 1201e2e12bcc2d81b3fb019fa1ab96d9
+
+server: smtp.mailgun.org
+port: 587 - 

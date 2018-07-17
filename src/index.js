@@ -128,7 +128,7 @@ var page = {
 				<section class="mw8 bg-white tc center pa2">
 					<h1 class="f1 i black athelas">
 						About Us
-						<p class="f4 fw1 pv0 mv0">
+						<p class="f4-ns f5 fw1 pv0 mv0">
 							A quick introduction to www.greenhouse.ng
 						</p>
 					</h1>
@@ -159,9 +159,9 @@ var page = {
 
 				<a name="gallery"></a>
 				<section class="mw8 bg-near-white tc center pa2 br3 br--bottom pv3">
-					<h1 class="f2 i black athelas">
+					<h1 class="f3 f2-ns i black athelas">
 						FEATURED PRODUCTS
-						<p class="f4 fw1 pv0 mv0">
+						<p class="f5 f4-ns fw1 pv0 mv0">
 							Best & most popular of our greenhouses
 						</p>
 					</h1>
@@ -170,7 +170,7 @@ var page = {
 						<Icons name="chevron-left" class="h1 ph1 green pointer grow"/>
 						<Icons name="chevron-right" class="h1 ph1 dark-green pointer grow"/>
 					</div>
-				  <div class="cf pa1 overflow-scroll">
+				  <div class="cf pa1">
 				    <div class="dib w-50 w-25-ns pa2">
 			        <img src="assets/img/item-1.jpeg" class="db w-100 br2 br--top"/>
 						  <div class="pb3-ns tl">
