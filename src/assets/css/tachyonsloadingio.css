@@ -30,7 +30,7 @@ pre {
     white-space: pre;
     white-space: -moz-pre-wrap; /* fennec */
     white-space: pre-wrap;
-    white-space: pre\9; / IE7+ */
+    white-space: pre\9; 
 }
 
 
@@ -68,22 +68,22 @@ box-sizing: border-box;
 
 
 .wrapperBG {
-    /*background-image: url("../img/lekki.jpg");*/
+    /*background-image: url("/images/lekki.jpg");*/
     background-position: center;
     background-size: cover;
     transition: 2s;
 }
 
 
-.wrapperBG.slide{background-image: url("../img/slide.jpg");}
-.wrapperBG.slideOne{background-image: url("../img/slideOne.jpg");}
-.wrapperBG.slideTwo{background-image: url("../img/slideTwo.jpg");}
-.wrapperBG.slideThree{background-image: url("../img/slideThree.jpg");}
-.wrapperBG.slideFour{background-image: url("../img/slideFour.jpg");}
+.wrapperBG.slide{background-image: url("/images/slide.jpg");}
+.wrapperBG.slideOne{background-image: url("/images/slideOne.jpg");}
+.wrapperBG.slideTwo{background-image: url("/images/slideTwo.jpg");}
+.wrapperBG.slideThree{background-image: url("/images/slideThree.jpg");}
+.wrapperBG.slideFour{background-image: url("/images/slideFour.jpg");}
 
 .parallax {
     /* The image used */
-    background-image: url("../img/parallax.jpg");
+    background-image: url("/images/parallax.jpg");
 
     /* Set a specific height */
     min-height: 100vh;
@@ -97,7 +97,7 @@ box-sizing: border-box;
 
 .parallax-agent {
     /* The image used */
-    background-image: url("../img/parallax-agent.png");
+    background-image: url("/images/parallax-agent.png");
 
     /* Set a specific height */
     min-height: 100vh;

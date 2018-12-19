@@ -1,14 +1,2 @@
-.DS_Store
-node_modules/
-app/ui/src/.DS_Store
-webserver-mac.app
-webserver-win.exe
-webserver-win-64.exe
-webserver-linux.elf
 yarn.lock
-yarn-error.log
-webserver-linux.elf
-assets/bin/service-worker.js
-assets/bin/include.js
-assets/.DS_Store
-assets/bin/web.min.js
+.DS_Store
